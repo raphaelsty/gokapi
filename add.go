@@ -1,4 +1,4 @@
-package gokapi
+package github.com/raphaelsty/gokapi
 
 import (
 	"regexp"
