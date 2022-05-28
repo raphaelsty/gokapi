@@ -2,7 +2,7 @@
 
 Gokapi implements the [Okapi BM25](https://www.wikiwand.com/en/Okapi_BM25) retriever in Go.
 
-## Install
+## ⚙️ Install
 
 ```sh
 go get github.com/raphaelsty/gokapi@0.0.2
@@ -25,9 +25,11 @@ Here are some comparisons between Gokapi and the retrievers of the tool [Cherche
 |      Cherche BM25     |   ❌   |       ❌      |      ✅     |
 |     Cherche Lunar     |   ❌   |       ❌      |      ✅     |
 
+## 📑 Under the hood
+
 Gokapi stores the data necessary for the search on the disk (frequency of terms and metadata on the corpus). The reading (query) and writing (document indexing) times are higher than a retriever which stores data in memory, but Gokapi allows to process more documents without overloading the memory. Writing and reading on the disk are done with the [Diskv](https://github.com/peterbourgon/diskv) library. Gokapi does not store the content of the documents on the disk.
 
-## Quick start
+## 🔍 Quick start
 
 ```go
 package main
@@ -70,7 +72,7 @@ func main() {
 {document_1 1.001352}
 ```
 
-## Work in progress
+## 🚧 Work in progress
 
 Gokapi is under construction and may change soon.
 
