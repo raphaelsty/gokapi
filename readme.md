@@ -10,7 +10,7 @@ go get github.com/raphaelsty/gokapi@0.0.2
 
 Gokapi is suitable when you want to:
 
-- Implement the search engine on a single machine.
+- Implement the search engine on a single computer.
 - Store the data on disk and thus be able to search among millions of documents without memory constraints.
 - Update the retriever with new documents.
 - Avoid the constraints of Elasticsearch and the JVM.
