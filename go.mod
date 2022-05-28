@@ -1,4 +1,4 @@
-module github.com/raphaelsty/gokapi
+module github.com/raphaelsty/gokapi/v1
 
 go 1.18
 
