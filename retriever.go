@@ -15,6 +15,14 @@ type Document struct {
 	score float32
 }
 
+func (d Document) ID() string {
+	return d.id
+}
+
+func (d Document) Score() float32 {
+	return d.score
+}
+
 type Retriever struct {
 	path     string
 	diskTF   diskv.Diskv
